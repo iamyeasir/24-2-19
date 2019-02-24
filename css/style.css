@@ -1,0 +1,203 @@
+body {
+
+    margin: 0px;
+}
+
+section {
+
+    overflow: hidden;
+    background: #FFF;
+    width: 98%;
+    margin: auto;
+}
+
+.banner {}
+
+.container {
+
+    background: #005761;
+    overflow: hidden;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    height: 440px;
+}
+
+.logo {}
+
+.logo h1 {
+    line-height: 26px;
+    font-size: 26px;
+    color: #cddd39;
+    font-weight: lighter;
+    margin: 25px 0px 14px 48px;
+    margin-top: 25px;
+}
+
+.menu {
+    overflow: hidden
+}
+
+.menu ul {
+    margin: 0;
+    list-style: none
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 1px 7px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu ul li a:hover {
+    background: #a88f75
+}
+
+.name {
+    margin: 92px 165px;
+}
+
+.name h3 {
+    padding: 0px;
+    margin-top: 5px;
+    color: #CDDD39;
+    margin-left: 2px;
+    font-size: 23px;
+    font-weight: 100;
+    margin-bottom: -2px;
+}
+
+.name h2 {
+    margin: auto;
+    margin-left: -4px;
+    color: white;
+    font-size: 47px;
+}
+
+.name h5 {
+    color: white;
+    margin-top: -2px;
+    margin-left: -3px;
+    font-weight: 100;
+}
+
+.image {}
+
+.picture {
+    width: 102%;
+    margin-top: 0px;
+}
+
+.picture img {
+    width: 102%;
+    margin-top: 236px;
+}
+
+.social {
+    position: sticky;
+}
+
+.social ul {
+    list-style: none;
+    float: right;
+    margin-top: -285px;
+    font-size: 13px;
+    background: #F7DC4F;
+    padding: 10px 6px 9px 8px;
+    font-weight: lighter;
+    line-height: 23px;
+}
+
+.social ul li {}
+
+.social ul li a {color: black;}
+
+.social ul li a:hover {}
+
+.about-me {}
+
+.about-me div {}
+
+.about-me h1 {
+    text-align: center;
+    font-size: 41px;
+    margin: 54px 0px 20px;
+    color: #015860;
+    font-weight: 400;
+}
+
+.about-me p {
+    width: 56%;
+    margin: auto;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 48px;
+    color: #232220c4;
+}
+
+.about-me a {
+    text-decoration: none;
+    color: #005761;
+    border: 2px solid #f7dc4f;
+    background: #f7dc4f;
+    padding: 7px 0px;
+    display: block;
+    text-align: center;
+    margin: 48px 260px;
+    font-size: 17px;
+}
+
+.showreel {
+    margin-top: 50px;
+    width: 98%;
+}
+
+.showreel h1 {
+    text-align: center;
+    font-size: 58px;
+    margin: 62px;
+    color: #015860;
+}
+
+.video {
+    height: 688px;
+    margin: 0px 15px;
+    width: 1245px;
+}
+ 
+
+.photos-content {}
+.photos-content h1 {text-align: center;font-size: 58px;margin: 62px;color: #015860;}
+.photos {}
+.column-1 {margin: 0px -27px 0px 33px;}
+.column-1 img {float: left;box-sizing: border-box;margin-right: -19px;height: 325px;margin-bottom: 25px;padding-right: 40px;}
+
+.column-2 {margin: 0px -49px 0px 33px;}
+.column-2 img{float: left;box-sizing: border-box;margin-right: -19px;height: 325px;margin-bottom: 38px;padding-right: 40px;}
+
+
+.contact{overflow: hidden; width: 100%;margin-left: 27px;margin-top: 26px;}
+
+.contact-image{float: left;overflow: hidden;width: 50%;box-sizing: border-box;}
+.contact-image img{width: 631px;}
+.contact-info{background-color: #005761;width: 50%;float: left;box-sizing: border-box;height: 946px;margin-left: -1px;}
+.contact-info h1{color: #F7DC4F;margin: 150px 197px 34px;font-size: 66px;}
+.contact-info h2{margin-left: 201px;color: #fff;margin-top: 0px;font-weight: 822;margin-bottom: 45px;}
+.manager{margin-left: 201px;line-height: 3px;margin-bottom: 73px;color: white;}
+.commercial-agent{margin-left: 201px;line-height: 3px;margin-bottom: 73px;color: white;}
+.sf-agent{margin-left: 201px;line-height: 3px;margin-bottom: 73px;color: white;}
+h3{font-size: 22px;}
+h4{font-size: 14px;font-weight: inherit;}
+h5{font-weight: inherit;}
+h6{font-size: 13px;font-weight: normal;}
+.contact-info ul {list-style: none;display: flex;margin-left: 151px;margin-top: -24px;}
+.contact-info ul li{padding: 10px;}
+.contact-info ul li a {color: white;}
+footer {margin: 22px 455px 37px;}
+.footer {color: black;font-weight: bold;}
