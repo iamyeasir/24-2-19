@@ -1,6 +1,4 @@
-body {
-
-}
+body {}
 
 section {
 
@@ -85,7 +83,11 @@ section {
     font-weight: 100;
 }
 
-.image {width: 50%;float: left;overflow: hidden;}
+.image {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
 
 .picture {
     width: 100%;
@@ -113,9 +115,13 @@ section {
 
 .social ul li {}
 
-.social ul li a {color: black;}
+.social ul li a {
+    color: black;
+}
 
-.social ul li a:hover {color: #005761;}
+.social ul li a:hover {
+    color: #005761;
+}
 
 .about-me {}
 
@@ -168,35 +174,152 @@ section {
     margin-left: 13px;
     display: block;
 }
- 
+
 
 .photos-content {}
-.photos-content h1 {text-align: center;font-size: 58px;margin: 62px;color: #015860;}
-.photos {width: 100%;}
-.column-1 {margin: 0px -8px 0px 23px;}
-.column-1 img {float: left;box-sizing: border-box;margin-right: -20px;height: 325px;margin-bottom: 25px;padding-right: 40px;}
 
-.column-2 {margin: 0px -8px 0px 23px;}
-.column-2 img{float: left;box-sizing: border-box;margin-right: -19px;height: 325px;margin-bottom: 38px;padding-right: 40px;}
+.photos-content h1 {
+    text-align: center;
+    font-size: 58px;
+    margin: 62px;
+    color: #015860;
+}
+
+.photos {
+    width: 100%;
+}
+
+.column-1 {
+    margin: 0px -8px 0px 23px;
+}
+
+.column-1 img {
+    float: left;
+    box-sizing: border-box;
+    margin-right: -20px;
+    height: 325px;
+    margin-bottom: 25px;
+    padding-right: 40px;
+}
+
+.column-2 {
+    margin: 0px -8px 0px 23px;
+}
+
+.column-2 img {
+    float: left;
+    box-sizing: border-box;
+    margin-right: -19px;
+    height: 325px;
+    margin-bottom: 38px;
+    padding-right: 40px;
+}
 
 
-.contact{overflow: hidden; width: 100%;margin-top: 26px;background: #005761;}
+.contact {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 26px;
+    background: #005761;
+}
 
-.contact-image{float: left;overflow: hidden;width: 50%;box-sizing: border-box;margin-bottom: -2px;}
-.contact-image img{width: 100%;}
-.contact-info{width: 50%;float: left;box-sizing: border-box;overflow: hidden;}
-.contact-info h1{color: #F7DC4F;margin: 150px 197px 34px;font-size: 66px;}
-.contact-info h2{margin-left: 201px;color: #fff;margin-top: 0px;font-weight: 822;margin-bottom: 45px;}
-.manager{margin-left: 201px;line-height: 3px;margin-bottom: 73px;color: white;}
-.commercial-agent{margin-left: 201px;line-height: 3px;margin-bottom: 73px;color: white;}
-.sf-agent{margin-left: 201px;line-height: 3px;margin-bottom: 73px;color: white;}
-h3{font-size: 22px;}
-h4{font-size: 14px;font-weight: inherit;}
-h5{font-weight: inherit;}
-h6{font-size: 13px;font-weight: normal;}
-.contact-info ul {list-style: none;display: flex;margin-left: 151px;margin-top: -24px;}
-.contact-info ul li{padding: 10px;}
-.contact-info ul li a {color: white;}
-footer {margin: 22px 37px;text-align: center;}
-.footer {color: black;font-weight: bold;}
-.icon:hover {color: #939393;}
+.contact-image {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: -2px;
+}
+
+.contact-image img {
+    width: 100%;
+}
+
+.contact-info {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.contact-info h1 {
+    color: #F7DC4F;
+    margin: 85px 197px 34px;
+    font-size: 66px;
+}
+
+.contact-info h2 {
+    margin-left: 201px;
+    color: #fff;
+    margin-top: 0px;
+    font-weight: 822;
+    margin-bottom: 45px;
+}
+
+.manager {
+    margin-left: 201px;
+    line-height: 3px;
+    margin-bottom: 73px;
+    color: white;
+}
+
+.commercial-agent {
+    margin-left: 201px;
+    line-height: 3px;
+    margin-bottom: 73px;
+    color: white;
+}
+
+.sf-agent {
+    margin-left: 201px;
+    line-height: 3px;
+    margin-bottom: 73px;
+    color: white;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: inherit;
+}
+
+h5 {
+    font-weight: inherit;
+}
+
+h6 {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    margin-left: 151px;
+    margin-top: -24px;
+}
+
+.contact-info ul li {
+    padding: 10px;
+}
+
+.contact-info ul li a {
+    color: white;
+}
+
+footer {
+    margin: 22px 37px;
+    text-align: center;
+}
+
+.footer {
+    color: black;
+    font-weight: bold;
+}
+
+.icon:hover {
+    color: #939393;
+}
